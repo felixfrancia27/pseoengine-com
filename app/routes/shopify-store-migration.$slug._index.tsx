@@ -100,12 +100,12 @@ If you need order history in Shopify, use one of these approaches:
 ### 1. Matrixify (Excelify)
 The most common tool for bulk order import. Export orders from your source platform as CSV, map columns, and import. Supports orders, transactions, and fulfillments. Paid app with metered pricing.
 
-### 2. Shopify Admin API
-Use the Order API endpoint (\`POST /admin/api/2024-01/orders.json\`) for programmatic import. Requires:
-- Customer records to exist in Shopify first
-- Product/variant IDs mapped to Shopify IDs
-- Order import must follow Shopify's rate limits (40 req/min standard, 80 req/min Plus)
-- Transactions imported separately via Transaction API
+### 2. Shopify GraphQL Admin API
+Use the \`orderCreate\` mutation via the GraphQL Admin API (\`POST /admin/api/2026-07/graphql.json\`) for programmatic order import. The mutation accepts customer data, line items, shipping/billing addresses, and transaction information. Requires:
+- Customer records to exist in Shopify first (or create them inline with \`toUpsert\`)
+- Product/variant IDs mapped to Shopify GIDs (\`gid://shopify/ProductVariant/...\`)
+- Transactions imported within the same mutation or separately via \`orderEditBegin\`
+- GraphQL cost-based rate limiting applies (check current limits at shopify.dev)
 
 ### 3. Cart2Cart
 Automated migration service that handles order migration for multiple platforms. Paid service, pricing varies by data volume.
@@ -148,18 +148,21 @@ For most stores, migrating historical orders to Shopify **is not recommended** b
 4. **Create 301 redirects** — Import via Shopify admin or API (max 100,000 redirects)
 5. **Transfer meta titles and descriptions** — Map correctly during product/category import
 6. **Submit new sitemap** — Via Google Search Console after launch
-7. **Use Change of Address tool** — If changing domains, notify Google via Search Console
-8. **Monitor 404 errors** — Aggressively for first 3 months
-9. **Monitor search traffic** — Weekly comparison against pre-migration baseline
-10. **Keep old domain/redirects** — For at least 12 months
+7. **If changing domains** — Use Google Search Console's Change of Address tool to notify Google of the domain change. This tool is for domain-level moves, not platform-level migrations on the same domain.
+8. **Monitor 404 errors** — Aggressively for the first 3 months
 
 ## Expected SEO impact
 
-Expect a **10-30% traffic decline** in the first 1-2 months. Recovery timeline depends on store complexity:
-- Small stores (< 100 products): 2-4 weeks
-- Medium stores (100-1000 products): 1-2 months
-- Large/complex stores (1000+ products): 2-4 months
-- Stores with significant blog/content: 3-6 months
+Organic search performance can be affected by any platform migration. The impact varies with:
+- How many URLs change structure
+- Whether 301 redirects are properly implemented
+- Crawl frequency of the existing site
+- Number and quality of backlinks
+- Internal linking changes
+- Content changes during migration
+- How quickly Google processes the sitemap submission
+
+A well-executed migration with thorough redirect coverage and preserved metadata typically sees search traffic stabilize within weeks. Complex migrations with significant URL restructuring or content changes may take longer.
 
 ## Redirect limits
 
@@ -339,8 +342,8 @@ Stamped supports CSV import of reviews from any platform. Export reviews as CSV 
 ### 4. Loox
 Loox supports review import via CSV for photos and text reviews. Paid plans required for import functionality.
 
-### 5. Shopify Product Reviews (free app)
-Shopify's free Product Reviews app supports importing reviews from a CSV file. The format requires:
+### 5. Shopify Product Reviews (legacy, no longer available)
+Shopify's free Product Reviews app has been discontinued. For review migration to Shopify, use a third-party review app:
 - product_handle
 - rating
 - author

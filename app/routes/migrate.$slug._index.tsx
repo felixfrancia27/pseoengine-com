@@ -140,25 +140,17 @@ export default function MigrateSlug() {
           </div>
 
           {/* What migrates */}
-          <h2>What Shopify's migration tool transfers</h2>
+          <h2>What Shopify's Store Migration app transfers</h2>
           {platform.shopifyNativeMigrationSupport === "none" ? (
-            <div className="warning">
-              <strong>No native migration:</strong> Shopify does not offer a built-in Store Migration tool for {platform.name}. All data migration must be done via third-party tools (Cart2Cart, Matrixify), custom API development, or migration services.
+            <div className="info-callout">
+              <strong>No native Store Migration support:</strong> The Shopify Store Migration app does not support {platform.name}. Data migration requires CSV import, third-party apps (Matrixify, Cart2Cart), or custom API development.
             </div>
           ) : (
             <>
-              <ul>
-                {platform.shopifyNativeMigrates.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-
-              <h3>What does NOT transfer</h3>
-              <ul>
-                {platform.shopifyNativeDoesNotMigrate.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
+              <p>The Store Migration app can import products (via CSV or account connection), product images, and customer records from {platform.name}.</p>
+              <div className="warning">
+                <strong>Not transferred by the Store Migration app:</strong> Order history, customer passwords, product reviews, blog posts, pages, gift cards, discount codes, subscriptions. These require separate migration methods.
+              </div>
             </>
           )}
 
@@ -216,11 +208,11 @@ export default function MigrateSlug() {
 
           {/* Known problems */}
           <h2>Known migration problems</h2>
-          <p>These are the migration issues that commonly affect {platform.name} to Shopify migrations:</p>
+          <p>These are the migration issues that commonly affect {platform.name} to Shopify migrations. Select a problem for platform-specific guidance:</p>
           <div className="related-guides">
             {relatedIssues.map((issue) => (
               <Link
-                key={issue.slug}
+                key={`${platform.slug}-${issue.slug}`}
                 className="related-guide"
                 to={`/migrate/${platform.slug}-to-shopify/${issue.slug}/`}
               >
@@ -260,7 +252,7 @@ export default function MigrateSlug() {
           </code>
 
           {/* Common integrations */}
-          {platform.commonIntegrations.length > 0 && (
+          {platform.commonIntegrations.length > 0 ? (
             <>
               <h2>Common integrations to plan for</h2>
               <ul>
@@ -269,17 +261,21 @@ export default function MigrateSlug() {
                 ))}
               </ul>
             </>
-          )}
+          ) : null}
 
           {/* Sources */}
-          <h2>References</h2>
-          <ul className="source-list">
-            {platform.sources.map((s) => (
-              <li key={s.url}>
-                <a href={s.url} rel="noopener" target="_blank">{s.title}</a> — {s.publisher}
-              </li>
-            ))}
-          </ul>
+          {platform.sources.length > 0 ? (
+            <>
+              <h2>References</h2>
+              <ul className="source-list">
+                {platform.sources.map((s) => (
+                  <li key={s.url}>
+                    <a href={s.url} rel="noopener" target="_blank">{s.title}</a> — {s.publisher}
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
 
           <MigrationCTA
             headline={`Planning a ${platform.name} to Shopify migration?`}

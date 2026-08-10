@@ -17,7 +17,7 @@ export const PLATFORMS: Platform[] = [
       "WooCommerce powers over 4 million stores on WordPress. It stores products as custom post types, variants as post meta, and orders in a separate custom table. Its data model is flexible but deeply coupled to WordPress, which creates specific challenges during migration to Shopify's structured product model.",
     primaryMarket: "global",
     shopifyCategory: "major",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "full",
     shopifyNativeMigrates: [
       "Products (simple and variable)",
       "Product images",
@@ -150,7 +150,7 @@ export const PLATFORMS: Platform[] = [
       "Magento (now Adobe Commerce) is an enterprise-grade ecommerce platform with a complex EAV (Entity-Attribute-Value) data model. Its extensive customization capabilities make migrations particularly challenging, especially when dealing with configurable products, customer groups, and B2B features.",
     primaryMarket: "global",
     shopifyCategory: "major",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "none",
     shopifyNativeMigrates: [
       "Products (simple and configurable)",
       "Product images",
@@ -274,7 +274,7 @@ export const PLATFORMS: Platform[] = [
       "BigCommerce is a hosted ecommerce platform competing with Shopify in the mid-market and enterprise space. Its data model is more structured than WooCommerce or Magento, making certain migration paths simpler, but its API differs significantly from Shopify's.",
     primaryMarket: "north-america",
     shopifyCategory: "major",
-    shopifyNativeMigrationSupport: "full",
+    shopifyNativeMigrationSupport: "none",
     shopifyNativeMigrates: [
       "Products",
       "Product variants",
@@ -368,7 +368,7 @@ export const PLATFORMS: Platform[] = [
       "PrestaShop is an open-source ecommerce platform widely used in Europe and Latin America. It uses a structured relational database (unlike Magento's EAV model) which simplifies data extraction, but its combination-based product model and module ecosystem create migration challenges.",
     primaryMarket: "europe",
     shopifyCategory: "major",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "none",
     shopifyNativeMigrates: [
       "Products (simple and with combinations)",
       "Product images",
@@ -468,7 +468,7 @@ export const PLATFORMS: Platform[] = [
       "Shopware is a leading ecommerce platform in Germany, Austria, and Switzerland. Version 6 uses a Symfony-based API-first architecture. Its Shopping Experiences (CMS), Rule Builder, and Flow Builder create data that has no direct Shopify equivalent.",
     primaryMarket: "europe",
     shopifyCategory: "regional",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "none",
     shopifyNativeMigrates: [
       "Products",
       "Product images",
@@ -841,7 +841,7 @@ export const PLATFORMS: Platform[] = [
       "Wix Stores is an ecommerce add-on to the Wix website builder. Its product data model is simpler than dedicated ecommerce platforms, which makes basic migration straightforward, but Wix-specific features like Wix Bookings, Wix Events, and Wix Blog have no Shopify equivalent.",
     primaryMarket: "global",
     shopifyCategory: "niche",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "full",
     shopifyNativeMigrates: [
       "Products",
       "Product images",
@@ -907,7 +907,7 @@ export const PLATFORMS: Platform[] = [
       "Squarespace Commerce is a design-focused ecommerce platform for small stores. Its product model is simple, making basic migration straightforward, but Squarespace-specific features like Member Areas, Scheduling, and custom product forms have no direct Shopify equivalent.",
     primaryMarket: "global",
     shopifyCategory: "niche",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "none",
     shopifyNativeMigrates: [
       "Products",
       "Product images",
@@ -982,7 +982,7 @@ export const PLATFORMS: Platform[] = [
       "OpenCart is an open-source PHP ecommerce platform with a clean relational database schema, making data extraction relatively straightforward. Its extension ecosystem and multi-store capabilities create migration planning work, but the normalized data model is one of the easier ones to migrate from.",
     primaryMarket: "global",
     shopifyCategory: "niche",
-    shopifyNativeMigrationSupport: "partial",
+    shopifyNativeMigrationSupport: "none",
     shopifyNativeMigrates: [
       "Products",
       "Product images",
