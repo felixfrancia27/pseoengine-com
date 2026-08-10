@@ -1,0 +1,1262 @@
+[
+  {
+    "path": "/migrate/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/bigcommerce-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/prestashop-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/shopware-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/vtex-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/tiendanube-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/nuvemshop-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/wix-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/squarespace-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/opencart-to-shopify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/bigcommerce-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/prestashop-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/shopware-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/vtex-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/tiendanube-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/nuvemshop-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/wix-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/squarespace-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/opencart-to-shopify/order-history/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/bigcommerce-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/prestashop-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/shopware-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/vtex-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/tiendanube-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/nuvemshop-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/wix-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/squarespace-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/opencart-to-shopify/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/vtex-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/tiendanube-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/nuvemshop-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/wix-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/squarespace-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/opencart-to-shopify/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/bigcommerce-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/prestashop-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/shopware-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/vtex-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/tiendanube-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/nuvemshop-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/wix-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/squarespace-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/opencart-to-shopify/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/subscriptions/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/subscriptions/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/woocommerce-to-shopify/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/prestashop-to-shopify/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/shopware-to-shopify/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/opencart-to-shopify/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/customer-groups/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/customer-groups/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/bigcommerce-to-shopify/customer-groups/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/integrations/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/tiendanube-to-shopify/integrations/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/nuvemshop-to-shopify/integrations/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/b2b/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/b2b/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/configurable-products/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/magento-to-shopify/configurable-products/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/migrate/shopify-store-migration-limitations/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/limitations/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/orders/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/seo/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/redirects/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/customer-passwords/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/shopify-store-migration/reviews/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/compare/shopify-store-migration-vs-matrixify/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/compare/shopify-store-migration-vs-cart2cart/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/tools/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/tools/migration-assessment/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/learn/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  },
+  {
+    "path": "/compare/",
+    "targetQuery": "",
+    "cluster": "",
+    "platform": "",
+    "issue": "",
+    "launchDate": "2026-08-10",
+    "gsc": {
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
+    }
+  }
+]

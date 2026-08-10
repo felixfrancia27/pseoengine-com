@@ -1,0 +1,47 @@
+{
+  "name": "pseoengine",
+  "private": true,
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "start": "remix-serve ./build/server/index.js",
+    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
+    "typecheck": "tsc --noEmit",
+    "content:generate": "tsx src/cli/generate.ts",
+    "content:review": "tsx src/cli/review.ts",
+    "content:validate": "tsx src/cli/validate.ts",
+    "content:report": "tsx src/cli/content-report.ts",
+    "content:similarity": "tsx src/cli/similarity.ts",
+    "content:audit": "tsx src/cli/prelaunch-audit.ts",
+    "seo:crawl": "tsx src/cli/seo-crawl.ts"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@remix-run/dev": "^2.16.1",
+    "@remix-run/fs-routes": "^2.16.1",
+    "@remix-run/node": "^2.16.1",
+    "@remix-run/react": "^2.16.1",
+    "@remix-run/serve": "^2.16.1",
+    "isbot": "^5.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-tsconfig-paths": "^5.0.1"
+  },
+  "devDependencies": {
+    "@remix-run/eslint-config": "^2.16.1",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.2.0",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^10.0.1",
+    "prettier": "^3.2.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.2.2",
+    "vite": "^6.2.2"
+  },
+  "author": "felix"
+}
