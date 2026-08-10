@@ -31,7 +31,7 @@ const COMPARISONS: Record<string, { title: string; description: string; subjects
 - First-time Shopify migration
 - Budget-constrained migration (free)
 - Small catalogs (< 500 products)
-- Platforms with good native support (WooCommerce, BigCommerce)
+- Platforms with Store Migration app support (WooCommerce, Wix)
 
 ## When to use Matrixify
 

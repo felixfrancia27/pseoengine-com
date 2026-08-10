@@ -584,7 +584,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     whatMigrates: [
       "Simple product-to-variant mapping",
       "Up to 3 options per product",
-      "Up to 2,000 variants per product",
+      "Up to 2,048 variants per product",
       "Per-variant pricing, SKU, and inventory",
     ],
     whatDoesNotMigrate: [
@@ -607,7 +607,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     complexity: 8,
     technicalNotes: [
       "Shopify: maximum 3 options (option1, option2, option3) per product",
-      "Shopify: maximum 2,000 variants per product",
+      "Shopify: maximum 2,048 variants per product",
       "Magento EAV: attributes in eav_attribute, values in catalog_product_entity_* tables",
       "Magento configurable: super_attribute links configurable to simple products",
       "PrestaShop: combinations in ps_product_attribute + ps_product_attribute_combination",

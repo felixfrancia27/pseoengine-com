@@ -29,7 +29,11 @@ export const loader = async ({ params }: LoaderFunctionArgs) => {
     const relatedIssues = MIGRATION_ISSUES.filter(
       (i) => i.hasPage && i.affectedPlatforms.includes(platform.slug)
     );
-    return { type: "platform" as const, platform, relatedIssues, issueSlugs };
+    // Get registered platform-specific child pages from the content registry
+    const childPages = CONTENT_REGISTRY.filter(
+      (e) => e.page.platform === platform.slug && e.page.problem && e.page.status === "published"
+    ).map((e) => e.page);
+    return { type: "platform" as const, platform, relatedIssues, issueSlugs, childPages };
   }
 
   // Try matching as a generic migration problem: "order-history", "seo", etc.
@@ -82,7 +86,7 @@ export default function MigrateSlug() {
   const data = useLoaderData<typeof loader>();
 
   if (data.type === "platform") {
-    const { platform, relatedIssues } = data;
+    const { platform, childPages } = data;
 
     const supportLabel = platform.shopifyNativeMigrationSupport === "none"
       ? "No native migration tool available"
@@ -168,7 +172,7 @@ export default function MigrateSlug() {
               <tr>
                 <td><strong>Products</strong></td>
                 <td>{platform.dataModel.productModel}</td>
-                <td>Product with up to 3 options, 2,000 variants, metafields</td>
+                <td>Product with up to 3 options, 2,048 variants, metafields</td>
               </tr>
               <tr>
                 <td><strong>Variants</strong></td>
@@ -207,19 +211,26 @@ export default function MigrateSlug() {
           </ul>
 
           {/* Known problems */}
-          <h2>Known migration problems</h2>
-          <p>These are the migration issues that commonly affect {platform.name} to Shopify migrations. Select a problem for platform-specific guidance:</p>
-          <div className="related-guides">
-            {relatedIssues.map((issue) => (
-              <Link
-                key={`${platform.slug}-${issue.slug}`}
-                className="related-guide"
-                to={`/migrate/${platform.slug}-to-shopify/${issue.slug}/`}
-              >
-                {issue.title}
-              </Link>
-            ))}
-          </div>
+          {childPages.length > 0 ? (
+            <>
+              <h2>Migration guides for {platform.name}</h2>
+              <p>Platform-specific guidance for the most common {platform.name} to Shopify migration issues:</p>
+              <div className="related-guides">
+                {childPages.map((page) => {
+                  const issue = MIGRATION_ISSUES.find((i) => i.hasPage && i.slug === page.problem);
+                  return (
+                    <Link
+                      key={page.path}
+                      className="related-guide"
+                      to={page.path}
+                    >
+                      {issue?.title || page.title}
+                    </Link>
+                  );
+                })}
+              </div>
+            </>
+          ) : null}
 
           {/* SEO considerations */}
           <h2>SEO migration considerations</h2>
@@ -289,6 +300,16 @@ export default function MigrateSlug() {
 
   // Problem page
   const { issue, affectedPlatforms } = data as { issue: MigrationIssue; affectedPlatforms: Platform[] };
+
+  // Get registered platform-specific pages for this issue from the content registry
+  const issueChildPages = CONTENT_REGISTRY.filter(
+    (e) => e.page.problem === issue.slug && e.page.platform && e.page.status === "published"
+  ).map((e) => e.page);
+
+  // Get related issues from structured data
+  const relatedIssues = MIGRATION_ISSUES.filter(
+    (i) => i.hasPage && i.slug !== issue.slug && issue.relatedIssues.includes(i.slug)
+  );
 
   // BreadcrumbList structured data
   const breadcrumbJson = {
@@ -375,36 +396,36 @@ export default function MigrateSlug() {
         )}
 
         {/* Platform-specific pages */}
-        <h2>Platform-specific guides</h2>
-        <div className="related-guides">
-          {affectedPlatforms.map((platform) => (
-            <Link
-              key={platform.slug}
-              className="related-guide"
-              to={`/migrate/${platform.slug}-to-shopify/${issue.slug}/`}
-            >
-              {platform.name}: {issue.title}
-            </Link>
-          ))}
-        </div>
-
-        {/* Related issues */}
-        {issue.relatedIssues.length > 0 && (
+        {issueChildPages.length > 0 ? (
           <>
-            <h2>Related migration problems</h2>
+            <h2>Platform-specific guides</h2>
+            <p>{issue.title} by platform:</p>
             <div className="related-guides">
-              {issue.relatedIssues.map((slug) => {
-                const rel = MIGRATION_ISSUES.find((i) => i.hasPage && i.slug === slug);
-                if (!rel) return null;
+              {issueChildPages.map((page) => {
+                const platform = PLATFORMS.find((p) => p.slug === page.platform);
                 return (
-                  <Link key={slug} className="related-guide" to={`/migrate/${slug}/`}>
-                    {rel.title}
+                  <Link key={page.path} className="related-guide" to={page.path}>
+                    {platform?.name || page.platform}: {issue.title}
                   </Link>
                 );
               })}
             </div>
           </>
-        )}
+        ) : null}
+
+        {/* Related issues */}
+        {relatedIssues.length > 0 ? (
+          <>
+            <h2>Related migration problems</h2>
+            <div className="related-guides">
+              {relatedIssues.map((rel) => (
+                <Link key={rel.slug} className="related-guide" to={`/migrate/${rel.slug}/`}>
+                  {rel.title}
+                </Link>
+              ))}
+            </div>
+          </>
+        ) : null}
 
         {/* Sources */}
         {issue.sources.length > 0 && (

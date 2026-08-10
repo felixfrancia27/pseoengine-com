@@ -53,7 +53,7 @@ export const API_VERSION = "2026-07";
 
 export const API_GRAPHQL_ENDPOINT = "/admin/api/2026-07/graphql.json";
 
-export const PRODUCT_VARIANT_LIMIT = 2000;
+export const PRODUCT_VARIANT_LIMIT = 2048;
 
 export const PRODUCT_OPTION_LIMIT = 3;
 

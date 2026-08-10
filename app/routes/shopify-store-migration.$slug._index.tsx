@@ -63,62 +63,70 @@ The Store Migration app does not transfer:
 | B2B data | Shopify Plus B2B setup, SparkLayer, custom API`,
   },
   orders: {
-    title: "Does Shopify Store Migration Migrate Orders?",
-    description: "Whether Shopify's built-in migration tool transfers historical order data, and how to import orders for platforms not supported.",
-    content: `The short answer: for most platforms, no. Shopify's Store Migration app does not migrate historical orders from WooCommerce, Magento, PrestaShop, Shopware, or VTEX. BigCommerce is a notable exception.
+    title: "Does Shopify Store Migration Import Historical Orders?",
+    description: "Whether Shopify's Store Migration app transfers historical order data, and how to import orders using Shopify's supported migration methods.",
+    content: `The Shopify Store Migration app does not import historical orders from any platform.
 
-## Which platforms support order migration?
+## Can historical orders still be migrated to Shopify?
 
-| Platform | Order migration via Shopify's native tool |
-|---|---|
-| BigCommerce | Yes (orders can be imported) |
-| WooCommerce | No |
-| Magento | No |
-| PrestaShop | No |
-| Shopware | No |
-| Wix | No |
-| Squarespace | No |
-| OpenCart | No |
-| VTEX | No native tool at all |
-| Tiendanube | No native tool at all |
+Yes. While the Store Migration app does not handle orders, Shopify supports importing historical orders through:
 
-## Why orders are difficult to migrate
+- **Migration apps** — Matrixify (Excelify), Cart2Cart, and other Shopify App Store migration tools
+- **Shopify GraphQL Admin API** — The \`orderCreate\` mutation allows programmatic order import with customer association, line items, and transaction data
+- **Custom development** — Using the Shopify API for specialized migration requirements
 
-Order data is the most complex entity in any ecommerce system because it references:
-- **Customers** — Must exist in Shopify before orders can be associated
-- **Products** — Must exist in Shopify with matching SKUs or IDs
-- **Payment transactions** — Payment gateway references are platform-specific
-- **Fulfillments** — Shipping and tracking data
-- **Tax calculations** — Platform-specific tax engines
-- **Discounts** — Discount codes and their application logic differ
-- **Refunds** — Partial refunds and return data
+## What the Store Migration app handles
+
+The Store Migration app imports products, product images, and customer records from supported platforms (Square, WooCommerce, Etsy, Wix, Amazon, eBay, Clover, Lightspeed).
+
+It does not import:
+- Historical orders
+- Gift cards or store credit
+- Product reviews
+- Blog posts or pages
+- Discount codes or coupon history
+- Customer passwords
+
+## Why orders are complex to migrate
+
+Order data references multiple entities that must exist in Shopify first:
+- **Customers** — Must be in Shopify before orders can be associated (or created inline via \`toUpsert\`)
+- **Products** — Must exist with matching variant IDs (Shopify GIDs)
+- **Payment transactions** — Platform-specific gateway references cannot transfer directly
+- **Fulfillments** — Shipping carrier, tracking IDs, and fulfillment events
+- **Taxes** — Tax breakdowns are platform-specific
+- **Discounts** — Discount code application logic differs between platforms
+- **Refunds** — Partial refund and return data
 
 ## How to import orders to Shopify
 
-If you need order history in Shopify, use one of these approaches:
-
-### 1. Matrixify (Excelify)
-The most common tool for bulk order import. Export orders from your source platform as CSV, map columns, and import. Supports orders, transactions, and fulfillments. Paid app with metered pricing.
+### 1. Migration apps
+Matrixify is the most commonly used tool for bulk order import. Export orders from the source platform, map fields to Shopify's format, and import with customer and product associations. Cart2Cart offers automated migration for many platforms.
 
 ### 2. Shopify GraphQL Admin API
-Use the \`orderCreate\` mutation via the GraphQL Admin API (\`POST /admin/api/2026-07/graphql.json\`) for programmatic order import. The mutation accepts customer data, line items, shipping/billing addresses, and transaction information. Requires:
-- Customer records to exist in Shopify first (or create them inline with \`toUpsert\`)
-- Product/variant IDs mapped to Shopify GIDs (\`gid://shopify/ProductVariant/...\`)
-- Transactions imported within the same mutation or separately via \`orderEditBegin\`
-- GraphQL cost-based rate limiting applies (check current limits at shopify.dev)
+Use the \`orderCreate\` mutation at the GraphQL Admin API endpoint. The mutation supports:
+- Customer association (existing or inline creation)
+- Line items with variant references
+- Shipping and billing addresses
+- Transaction data
+- Financial and fulfillment status
+- Custom pricing and tax lines
 
-### 3. Cart2Cart
-Automated migration service that handles order migration for multiple platforms. Paid service, pricing varies by data volume.
+After creating orders, use \`orderEditBegin\` for significant edits or \`orderUpdate\` for simple changes.
 
-## Should you migrate orders at all?
+GraphQL rate limiting uses a cost-based model. Check current limits at shopify.dev/docs/api/usage/rate-limits.
 
-For most stores, migrating historical orders to Shopify **is not recommended** because:
-- It consumes significant time and resources
-- Historical order data is rarely accessed in a storefront context
-- It bloats the Shopify admin with old data
-- Reporting tools can ingest historical data separately
+### 3. Custom development
+For complex migrations with platform-specific data transformations, custom API integration may be needed to handle data mapping, validation, and incremental imports.
 
-**Better approach:** Export order history to an external reporting tool (Looker, Metabase, Google Sheets) and use Shopify for new orders only. This keeps your Shopify admin clean and fast.`,
+## Should you migrate historical orders?
+
+For most stores, migrating every historical order is not necessary:
+- Historical order data is rarely accessed in the storefront
+- Reporting tools can ingest order data separately (Looker, Metabase, Google Sheets)
+- It adds administrative overhead to the Shopify admin
+
+Import only the order data required for customer service, reorder functionality, or loyalty programs. Export the rest to a separate reporting system.`,
   },
   seo: {
     title: "Shopify Store Migration SEO — Redirects, URLs, Rankings",

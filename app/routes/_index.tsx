@@ -22,7 +22,7 @@ export const meta: MetaFunction = () => [
 const FAQS = [
   {
     q: "Can Shopify's migration tool move order history?",
-    a: "Shopify's native Store Migration app does not migrate historical orders for most platforms. For WooCommerce, BigCommerce, and PrestaShop, products, customers, and categories transfer, but orders must be imported separately via API, CSV, or third-party apps like Matrixify.",
+    a: "The Shopify Store Migration app does not import historical orders from any platform. It handles products, product images, and customer records from its supported platforms (Square, WooCommerce, Etsy, Wix, Amazon, eBay, Clover, Lightspeed). Orders can still be migrated to Shopify using migration apps like Matrixify or the GraphQL Admin API.",
   },
   {
     q: "Will migrating to Shopify hurt my SEO?",
