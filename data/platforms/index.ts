@@ -111,7 +111,7 @@ export const PLATFORMS: Platform[] = [
       },
       {
         q: "What happens to my WooCommerce SEO rankings?",
-        a: "SEO traffic typically dips 10-30% during the first 1-2 months after migration. Proper 301 redirects from every old URL, preserving meta titles/descriptions, and notifying Google via Search Console's Change of Address tool minimizes the impact. Some stores recover within weeks; complex stores may take 3-6 months.",
+        a: "A platform migration can affect organic search traffic. The impact depends on URL changes, redirect implementation, crawl frequency, and content changes. Proper 301 redirects and sitemap submission to Google Search Console help minimize impact. The Change of Address tool applies to domain-level moves, not platform migrations on the same domain.",
       },
       {
         q: "Can I migrate WooCommerce subscriptions to Shopify?",

@@ -19,7 +19,7 @@ const COMPARISONS: Record<string, { title: string; description: string; subjects
 | **Cost** | Free (included with Shopify) | From $20/month (metered by data volume) |
 | **Data types** | Products, customers, basic orders | Products, customers, orders, collections, pages, blogs, metafields, redirects, discounts, gift cards |
 | **Platform support** | 8 platforms (CSV templates) | Any platform (via Excel/CSV) |
-| **Order migration** | BigCommerce only (native) | Full order, transaction, fulfillment import |
+| **Order migration** | Not supported | Full order, transaction, fulfillment import |
 | **Custom fields** | Not supported | Full metafield import per entity |
 | **Scheduling** | Manual only | Scheduled repeat imports/exports |
 | **Bulk editing** | Not available | Edit thousands of items in Excel |

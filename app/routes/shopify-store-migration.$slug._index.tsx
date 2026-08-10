@@ -210,7 +210,7 @@ Redirects are created with a **path** (the old URL) and a **target** (the new UR
 Go to **Settings → Navigation → URL Redirects** and add redirects manually or via CSV import.
 
 ### Via Shopify API
-\`POST /admin/api/2024-01/redirects.json\` with the redirect payload. Bulk import is limited by API rate limits.
+URL redirects can be created via the Shopify admin (bulk import) or the GraphQL Admin API at /admin/api/2026-07/graphql.json.
 
 ### Via CSV import
 Prepare a CSV with two columns: \`path\` and \`target\`. Import in Shopify admin.
