@@ -1,6 +1,6 @@
 # Production SEO Crawl Report
 
-Generated: 2026-08-10T01:43:26.024Z
+Generated: 2026-08-10T02:29:16.111Z
 Base URL: https://pseoengine.com
 Local test: http://localhost:3000
 
@@ -45,43 +45,43 @@ Local test: http://localhost:3000
 
 | URL | HTTP | H1 | Title OK | Canonical OK | SSR Words | Structured Data | Status |
 |---|---|---|---|---|---|---|---|
-| `/migrate/` | 200 | Shopify migration guides by platform | ✓ | ✓ | 2820 | 1 schemas ✓ | PASS |
+| `/migrate/` | 200 | Shopify migration guides by platform | ✓ | ✓ | 2823 | 1 schemas ✓ | PASS |
 | `/migrate/woocommerce-to-shopify/` | 200 | WooCommerce to Shopify Migration | ✓ | ✓ | 2859 | 2 schemas ✓ | PASS |
 | `/migrate/magento-to-shopify/` | 200 | Adobe Commerce (Magento) to Shopify Migration | ✓ | ✓ | 3289 | 2 schemas ✓ | PASS |
 | `/migrate/bigcommerce-to-shopify/` | 200 | BigCommerce to Shopify Migration | ✓ | ✓ | 2673 | 2 schemas ✓ | PASS |
-| `/migrate/prestashop-to-shopify/` | 200 | PrestaShop to Shopify Migration | ✓ | ✓ | 2906 | 2 schemas ✓ | PASS |
+| `/migrate/prestashop-to-shopify/` | 200 | PrestaShop to Shopify Migration | ✓ | ✓ | 2912 | 2 schemas ✓ | PASS |
 | `/migrate/shopware-to-shopify/` | 200 | Shopware to Shopify Migration | ✓ | ✓ | 2685 | 2 schemas ✓ | PASS |
-| `/migrate/vtex-to-shopify/` | 200 | VTEX to Shopify Migration | ✓ | ✓ | 2198 | 2 schemas ✓ | PASS |
-| `/migrate/tiendanube-to-shopify/` | 200 | Tiendanube to Shopify Migration | ✓ | ✓ | 2017 | 2 schemas ✓ | PASS |
-| `/migrate/nuvemshop-to-shopify/` | 200 | Nuvemshop to Shopify Migration | ✓ | ✓ | 2019 | 2 schemas ✓ | PASS |
-| `/migrate/wix-to-shopify/` | 200 | Wix to Shopify Migration | ✓ | ✓ | 1872 | 2 schemas ✓ | PASS |
-| `/migrate/squarespace-to-shopify/` | 200 | Squarespace to Shopify Migration | ✓ | ✓ | 1686 | 2 schemas ✓ | PASS |
+| `/migrate/vtex-to-shopify/` | 200 | VTEX to Shopify Migration | ✓ | ✓ | 2201 | 2 schemas ✓ | PASS |
+| `/migrate/tiendanube-to-shopify/` | 200 | Tiendanube to Shopify Migration | ✓ | ✓ | 2020 | 2 schemas ✓ | PASS |
+| `/migrate/nuvemshop-to-shopify/` | 200 | Nuvemshop to Shopify Migration | ✓ | ✓ | 2022 | 2 schemas ✓ | PASS |
+| `/migrate/wix-to-shopify/` | 200 | Wix to Shopify Migration | ✓ | ✓ | 1875 | 2 schemas ✓ | PASS |
+| `/migrate/squarespace-to-shopify/` | 200 | Squarespace to Shopify Migration | ✓ | ✓ | 1689 | 2 schemas ✓ | PASS |
 | `/migrate/opencart-to-shopify/` | 200 | OpenCart to Shopify Migration | ✓ | ✓ | 2087 | 2 schemas ✓ | PASS |
-| `/migrate/order-history/` | 200 | Order History Migration to Shopify | ✓ | ✓ | 3279 | 2 schemas ✓ | PASS |
-| `/migrate/woocommerce-to-shopify/order-history/` | 200 | WooCommerce Order History Migration to Shopify | ✓ | ✓ | 1506 | 2 schemas ✓ | PASS |
-| `/migrate/magento-to-shopify/order-history/` | 200 | Adobe Commerce (Magento) Order History Migration t | ✓ | ✓ | 1489 | 2 schemas ✓ | PASS |
-| `/migrate/bigcommerce-to-shopify/order-history/` | 200 | BigCommerce Order History Migration to Shopify | ✓ | ✓ | 1347 | 2 schemas ✓ | PASS |
-| `/migrate/prestashop-to-shopify/order-history/` | 200 | PrestaShop Order History Migration to Shopify | ✓ | ✓ | 1358 | 2 schemas ✓ | PASS |
-| `/migrate/shopware-to-shopify/order-history/` | 200 | Shopware Order History Migration to Shopify | ✓ | ✓ | 1345 | 2 schemas ✓ | PASS |
-| `/migrate/vtex-to-shopify/order-history/` | 200 | VTEX Order History Migration to Shopify | ✓ | ✓ | 1446 | 2 schemas ✓ | PASS |
-| `/migrate/tiendanube-to-shopify/order-history/` | 200 | Tiendanube Order History Migration to Shopify | ✓ | ✓ | 1351 | 2 schemas ✓ | PASS |
-| `/migrate/nuvemshop-to-shopify/order-history/` | 200 | Nuvemshop Order History Migration to Shopify | ✓ | ✓ | 1351 | 2 schemas ✓ | PASS |
-| `/migrate/wix-to-shopify/order-history/` | 200 | Wix Order History Migration to Shopify | ✓ | ✓ | 1276 | 2 schemas ✓ | PASS |
-| `/migrate/squarespace-to-shopify/order-history/` | 200 | Squarespace Order History Migration to Shopify | ✓ | ✓ | 1263 | 2 schemas ✓ | PASS |
-| `/migrate/opencart-to-shopify/order-history/` | 200 | OpenCart Order History Migration to Shopify | ✓ | ✓ | 1297 | 2 schemas ✓ | PASS |
-| `/migrate/seo/` | 200 | SEO Migration to Shopify | ✓ | ✓ | 3186 | 2 schemas ✓ | PASS |
-| `/migrate/woocommerce-to-shopify/seo/` | 200 | WooCommerce SEO Migration to Shopify | ✓ | ✓ | 1424 | 2 schemas ✓ | PASS |
-| `/migrate/magento-to-shopify/seo/` | 200 | Adobe Commerce (Magento) SEO Migration to Shopify | ✓ | ✓ | 1407 | 2 schemas ✓ | PASS |
-| `/migrate/bigcommerce-to-shopify/seo/` | 200 | BigCommerce SEO Migration to Shopify | ✓ | ✓ | 1265 | 2 schemas ✓ | PASS |
-| `/migrate/prestashop-to-shopify/seo/` | 200 | PrestaShop SEO Migration to Shopify | ✓ | ✓ | 1276 | 2 schemas ✓ | PASS |
-| `/migrate/shopware-to-shopify/seo/` | 200 | Shopware SEO Migration to Shopify | ✓ | ✓ | 1263 | 2 schemas ✓ | PASS |
-| `/migrate/vtex-to-shopify/seo/` | 200 | VTEX SEO Migration to Shopify | ✓ | ✓ | 1364 | 2 schemas ✓ | PASS |
-| `/migrate/tiendanube-to-shopify/seo/` | 200 | Tiendanube SEO Migration to Shopify | ✓ | ✓ | 1269 | 2 schemas ✓ | PASS |
-| `/migrate/nuvemshop-to-shopify/seo/` | 200 | Nuvemshop SEO Migration to Shopify | ✓ | ✓ | 1269 | 2 schemas ✓ | PASS |
-| `/migrate/wix-to-shopify/seo/` | 200 | Wix SEO Migration to Shopify | ✓ | ✓ | 1194 | 2 schemas ✓ | PASS |
-| `/migrate/squarespace-to-shopify/seo/` | 200 | Squarespace SEO Migration to Shopify | ✓ | ✓ | 1181 | 2 schemas ✓ | PASS |
-| `/migrate/opencart-to-shopify/seo/` | 200 | OpenCart SEO Migration to Shopify | ✓ | ✓ | 1215 | 2 schemas ✓ | PASS |
-| `/migrate/redirects/` | 200 | URL Redirects Migration to Shopify | ✓ | ✓ | 3099 | 2 schemas ✓ | PASS |
+| `/migrate/order-history/` | 200 | Order History Migration to Shopify | ✓ | ✓ | 3270 | 2 schemas ✓ | PASS |
+| `/migrate/woocommerce-to-shopify/order-history/` | 200 | WooCommerce Order History Migration to Shopify | ✓ | ✓ | 1494 | 2 schemas ✓ | PASS |
+| `/migrate/magento-to-shopify/order-history/` | 200 | Adobe Commerce (Magento) Order History Migration t | ✓ | ✓ | 1477 | 2 schemas ✓ | PASS |
+| `/migrate/bigcommerce-to-shopify/order-history/` | 200 | BigCommerce Order History Migration to Shopify | ✓ | ✓ | 1335 | 2 schemas ✓ | PASS |
+| `/migrate/prestashop-to-shopify/order-history/` | 200 | PrestaShop Order History Migration to Shopify | ✓ | ✓ | 1349 | 2 schemas ✓ | PASS |
+| `/migrate/shopware-to-shopify/order-history/` | 200 | Shopware Order History Migration to Shopify | ✓ | ✓ | 1333 | 2 schemas ✓ | PASS |
+| `/migrate/vtex-to-shopify/order-history/` | 200 | VTEX Order History Migration to Shopify | ✓ | ✓ | 1434 | 2 schemas ✓ | PASS |
+| `/migrate/tiendanube-to-shopify/order-history/` | 200 | Tiendanube Order History Migration to Shopify | ✓ | ✓ | 1339 | 2 schemas ✓ | PASS |
+| `/migrate/nuvemshop-to-shopify/order-history/` | 200 | Nuvemshop Order History Migration to Shopify | ✓ | ✓ | 1339 | 2 schemas ✓ | PASS |
+| `/migrate/wix-to-shopify/order-history/` | 200 | Wix Order History Migration to Shopify | ✓ | ✓ | 1264 | 2 schemas ✓ | PASS |
+| `/migrate/squarespace-to-shopify/order-history/` | 200 | Squarespace Order History Migration to Shopify | ✓ | ✓ | 1251 | 2 schemas ✓ | PASS |
+| `/migrate/opencart-to-shopify/order-history/` | 200 | OpenCart Order History Migration to Shopify | ✓ | ✓ | 1285 | 2 schemas ✓ | PASS |
+| `/migrate/seo/` | 200 | SEO Migration to Shopify | ✓ | ✓ | 3207 | 2 schemas ✓ | PASS |
+| `/migrate/woocommerce-to-shopify/seo/` | 200 | WooCommerce SEO Migration to Shopify | ✓ | ✓ | 1442 | 2 schemas ✓ | PASS |
+| `/migrate/magento-to-shopify/seo/` | 200 | Adobe Commerce (Magento) SEO Migration to Shopify | ✓ | ✓ | 1425 | 2 schemas ✓ | PASS |
+| `/migrate/bigcommerce-to-shopify/seo/` | 200 | BigCommerce SEO Migration to Shopify | ✓ | ✓ | 1283 | 2 schemas ✓ | PASS |
+| `/migrate/prestashop-to-shopify/seo/` | 200 | PrestaShop SEO Migration to Shopify | ✓ | ✓ | 1297 | 2 schemas ✓ | PASS |
+| `/migrate/shopware-to-shopify/seo/` | 200 | Shopware SEO Migration to Shopify | ✓ | ✓ | 1281 | 2 schemas ✓ | PASS |
+| `/migrate/vtex-to-shopify/seo/` | 200 | VTEX SEO Migration to Shopify | ✓ | ✓ | 1382 | 2 schemas ✓ | PASS |
+| `/migrate/tiendanube-to-shopify/seo/` | 200 | Tiendanube SEO Migration to Shopify | ✓ | ✓ | 1287 | 2 schemas ✓ | PASS |
+| `/migrate/nuvemshop-to-shopify/seo/` | 200 | Nuvemshop SEO Migration to Shopify | ✓ | ✓ | 1287 | 2 schemas ✓ | PASS |
+| `/migrate/wix-to-shopify/seo/` | 200 | Wix SEO Migration to Shopify | ✓ | ✓ | 1212 | 2 schemas ✓ | PASS |
+| `/migrate/squarespace-to-shopify/seo/` | 200 | Squarespace SEO Migration to Shopify | ✓ | ✓ | 1199 | 2 schemas ✓ | PASS |
+| `/migrate/opencart-to-shopify/seo/` | 200 | OpenCart SEO Migration to Shopify | ✓ | ✓ | 1233 | 2 schemas ✓ | PASS |
+| `/migrate/redirects/` | 200 | URL Redirects Migration to Shopify | ✓ | ✓ | 3102 | 2 schemas ✓ | PASS |
 | `/migrate/woocommerce-to-shopify/redirects/` | 200 | WooCommerce URL Redirects Migration to Shopify | ✓ | ✓ | 1325 | 2 schemas ✓ | PASS |
 | `/migrate/magento-to-shopify/redirects/` | 200 | Adobe Commerce (Magento) URL Redirects Migration t | ✓ | ✓ | 1307 | 2 schemas ✓ | PASS |
 | `/migrate/vtex-to-shopify/redirects/` | 200 | VTEX URL Redirects Migration to Shopify | ✓ | ✓ | 1264 | 2 schemas ✓ | PASS |
@@ -90,11 +90,11 @@ Local test: http://localhost:3000
 | `/migrate/wix-to-shopify/redirects/` | 200 | Wix URL Redirects Migration to Shopify | ✓ | ✓ | 1095 | 2 schemas ✓ | PASS |
 | `/migrate/squarespace-to-shopify/redirects/` | 200 | Squarespace URL Redirects Migration to Shopify | ✓ | ✓ | 1081 | 2 schemas ✓ | PASS |
 | `/migrate/opencart-to-shopify/redirects/` | 200 | OpenCart URL Redirects Migration to Shopify | ✓ | ✓ | 1115 | 2 schemas ✓ | PASS |
-| `/migrate/customer-passwords/` | 200 | Customer Password Migration to Shopify | ✓ | ✓ | 3106 | 2 schemas ✓ | PASS |
+| `/migrate/customer-passwords/` | 200 | Customer Password Migration to Shopify | ✓ | ✓ | 3109 | 2 schemas ✓ | PASS |
 | `/migrate/woocommerce-to-shopify/customer-passwords/` | 200 | WooCommerce Customer Password Migration to Shopify | ✓ | ✓ | 1331 | 2 schemas ✓ | PASS |
 | `/migrate/magento-to-shopify/customer-passwords/` | 200 | Adobe Commerce (Magento) Customer Password Migrati | ✓ | ✓ | 1314 | 2 schemas ✓ | PASS |
 | `/migrate/bigcommerce-to-shopify/customer-passwords/` | 200 | BigCommerce Customer Password Migration to Shopify | ✓ | ✓ | 1172 | 2 schemas ✓ | PASS |
-| `/migrate/prestashop-to-shopify/customer-passwords/` | 200 | PrestaShop Customer Password Migration to Shopify | ✓ | ✓ | 1183 | 2 schemas ✓ | PASS |
+| `/migrate/prestashop-to-shopify/customer-passwords/` | 200 | PrestaShop Customer Password Migration to Shopify | ✓ | ✓ | 1186 | 2 schemas ✓ | PASS |
 | `/migrate/shopware-to-shopify/customer-passwords/` | 200 | Shopware Customer Password Migration to Shopify | ✓ | ✓ | 1170 | 2 schemas ✓ | PASS |
 | `/migrate/vtex-to-shopify/customer-passwords/` | 200 | VTEX Customer Password Migration to Shopify | ✓ | ✓ | 1271 | 2 schemas ✓ | PASS |
 | `/migrate/tiendanube-to-shopify/customer-passwords/` | 200 | Tiendanube Customer Password Migration to Shopify | ✓ | ✓ | 1176 | 2 schemas ✓ | PASS |
@@ -102,45 +102,45 @@ Local test: http://localhost:3000
 | `/migrate/wix-to-shopify/customer-passwords/` | 200 | Wix Customer Password Migration to Shopify | ✓ | ✓ | 1101 | 2 schemas ✓ | PASS |
 | `/migrate/squarespace-to-shopify/customer-passwords/` | 200 | Squarespace Customer Password Migration to Shopify | ✓ | ✓ | 1088 | 2 schemas ✓ | PASS |
 | `/migrate/opencart-to-shopify/customer-passwords/` | 200 | OpenCart Customer Password Migration to Shopify | ✓ | ✓ | 1122 | 2 schemas ✓ | PASS |
-| `/migrate/subscriptions/` | 200 | Subscription Migration to Shopify | ✓ | ✓ | 1665 | 2 schemas ✓ | PASS |
+| `/migrate/subscriptions/` | 200 | Subscription Migration to Shopify | ✓ | ✓ | 1668 | 2 schemas ✓ | PASS |
 | `/migrate/woocommerce-to-shopify/subscriptions/` | 200 | WooCommerce Subscription Migration to Shopify | ✓ | ✓ | 1318 | 2 schemas ✓ | PASS |
-| `/migrate/reviews/` | 200 | Product Reviews Migration to Shopify | ✓ | ✓ | 2159 | 2 schemas ✓ | PASS |
-| `/migrate/woocommerce-to-shopify/reviews/` | 200 | WooCommerce Product Reviews Migration to Shopify | ✓ | ✓ | 1310 | 2 schemas ✓ | PASS |
-| `/migrate/magento-to-shopify/reviews/` | 200 | Adobe Commerce (Magento) Product Reviews Migration | ✓ | ✓ | 1293 | 2 schemas ✓ | PASS |
-| `/migrate/prestashop-to-shopify/reviews/` | 200 | PrestaShop Product Reviews Migration to Shopify | ✓ | ✓ | 1162 | 2 schemas ✓ | PASS |
-| `/migrate/shopware-to-shopify/reviews/` | 200 | Shopware Product Reviews Migration to Shopify | ✓ | ✓ | 1149 | 2 schemas ✓ | PASS |
-| `/migrate/opencart-to-shopify/reviews/` | 200 | OpenCart Product Reviews Migration to Shopify | ✓ | ✓ | 1101 | 2 schemas ✓ | PASS |
-| `/migrate/customer-groups/` | 200 | Customer Groups Migration to Shopify | ✓ | ✓ | 1459 | 2 schemas ✓ | PASS |
+| `/migrate/reviews/` | 200 | Product Reviews Migration to Shopify | ✓ | ✓ | 2156 | 2 schemas ✓ | PASS |
+| `/migrate/woocommerce-to-shopify/reviews/` | 200 | WooCommerce Product Reviews Migration to Shopify | ✓ | ✓ | 1304 | 2 schemas ✓ | PASS |
+| `/migrate/magento-to-shopify/reviews/` | 200 | Adobe Commerce (Magento) Product Reviews Migration | ✓ | ✓ | 1287 | 2 schemas ✓ | PASS |
+| `/migrate/prestashop-to-shopify/reviews/` | 200 | PrestaShop Product Reviews Migration to Shopify | ✓ | ✓ | 1159 | 2 schemas ✓ | PASS |
+| `/migrate/shopware-to-shopify/reviews/` | 200 | Shopware Product Reviews Migration to Shopify | ✓ | ✓ | 1143 | 2 schemas ✓ | PASS |
+| `/migrate/opencart-to-shopify/reviews/` | 200 | OpenCart Product Reviews Migration to Shopify | ✓ | ✓ | 1095 | 2 schemas ✓ | PASS |
+| `/migrate/customer-groups/` | 200 | Customer Groups Migration to Shopify | ✓ | ✓ | 1462 | 2 schemas ✓ | PASS |
 | `/migrate/magento-to-shopify/customer-groups/` | 200 | Adobe Commerce (Magento) Customer Groups Migration | ✓ | ✓ | 1255 | 2 schemas ✓ | PASS |
 | `/migrate/bigcommerce-to-shopify/customer-groups/` | 200 | BigCommerce Customer Groups Migration to Shopify | ✓ | ✓ | 1113 | 2 schemas ✓ | PASS |
-| `/migrate/integrations/` | 200 | Integration Migration to Shopify | ✓ | ✓ | 2776 | 2 schemas ✓ | PASS |
+| `/migrate/integrations/` | 200 | Integration Migration to Shopify | ✓ | ✓ | 2779 | 2 schemas ✓ | PASS |
 | `/migrate/tiendanube-to-shopify/integrations/` | 200 | Tiendanube Integration Migration to Shopify | ✓ | ✓ | 1101 | 2 schemas ✓ | PASS |
 | `/migrate/nuvemshop-to-shopify/integrations/` | 200 | Nuvemshop Integration Migration to Shopify | ✓ | ✓ | 1101 | 2 schemas ✓ | PASS |
 | `/migrate/b2b/` | 200 | B2B Migration to Shopify | ✓ | ✓ | 1435 | 2 schemas ✓ | PASS |
 | `/migrate/magento-to-shopify/b2b/` | 200 | Adobe Commerce (Magento) B2B Migration to Shopify | ✓ | ✓ | 1248 | 2 schemas ✓ | PASS |
-| `/migrate/configurable-products/` | 200 | Configurable Products Migration to Shopify | ✓ | ✓ | 1499 | 2 schemas ✓ | PASS |
+| `/migrate/configurable-products/` | 200 | Configurable Products Migration to Shopify | ✓ | ✓ | 1502 | 2 schemas ✓ | PASS |
 | `/migrate/magento-to-shopify/configurable-products/` | 200 | Adobe Commerce (Magento) Configurable Products Mig | ✓ | ✓ | 1305 | 2 schemas ✓ | PASS |
-| `/migrate/shopify-store-migration-limitations/` | 200 | Shopify Store Migration App Limitations to Shopify | ✓ | ✓ | 2078 | 2 schemas ✓ | PASS |
-| `/shopify-store-migration/` | 200 | Shopify Store Migration App — Complete Guide | ✓ | ✓ | 607 | 1 schemas ✓ | PASS |
+| `/migrate/shopify-store-migration-limitations/` | 200 | Shopify Store Migration App Limitations to Shopify | ✓ | ✓ | 2081 | 2 schemas ✓ | PASS |
+| `/shopify-store-migration/` | 200 | Shopify Store Migration App — Complete Guide | ✓ | ✓ | 655 | 1 schemas ✓ | PASS |
 | `/shopify-store-migration/limitations/` | 200 | Shopify Store Migration App Limitations | ✓ | ✓ | 1127 | 1 schemas ✓ | PASS |
 | `/shopify-store-migration/orders/` | 200 | Does Shopify Store Migration Migrate Orders? | ✓ | ✓ | 1123 | 1 schemas ✓ | PASS |
 | `/shopify-store-migration/seo/` | 200 | Shopify Store Migration SEO — Redirects, URLs, Ran | ✓ | ✓ | 1373 | 1 schemas ✓ | PASS |
 | `/shopify-store-migration/redirects/` | 200 | Shopify Store Migration Redirects | ✓ | ✓ | 948 | 1 schemas ✓ | PASS |
 | `/shopify-store-migration/customer-passwords/` | 200 | Shopify Store Migration Customer Passwords | ✓ | ✓ | 968 | 1 schemas ✓ | PASS |
 | `/shopify-store-migration/reviews/` | 200 | Shopify Store Migration Reviews — Product Review T | ✓ | ✓ | 903 | 1 schemas ✓ | PASS |
-| `/compare/shopify-store-migration-vs-matrixify/` | 200 | Shopify Store Migration vs Matrixify | ✓ | ✓ | 1135 | 1 schemas ✓ | PASS |
-| `/compare/shopify-store-migration-vs-cart2cart/` | 200 | Shopify Store Migration vs Cart2Cart | ✓ | ✓ | 1126 | 1 schemas ✓ | PASS |
+| `/compare/shopify-store-migration-vs-matrixify/` | 200 | Shopify Store Migration vs Matrixify | ✓ | ✓ | 1127 | 1 schemas ✓ | PASS |
+| `/compare/shopify-store-migration-vs-cart2cart/` | 200 | Shopify Store Migration vs Cart2Cart | ✓ | ✓ | 1124 | 1 schemas ✓ | PASS |
 | `/tools/` | 200 | Shopify migration tools | ✓ | ✓ | 346 | 1 schemas ✓ | PASS |
-| `/tools/migration-assessment/` | 200 | Free Shopify Migration Assessment | ✓ | ✓ | 438 | 1 schemas ✓ | PASS |
+| `/tools/migration-assessment/` | 200 | Free Shopify Migration Assessment | ✓ | ✓ | 445 | 1 schemas ✓ | PASS |
 | `/learn/` | 200 | Shopify migration knowledge base | ✓ | ✓ | 969 | 1 schemas ✓ | PASS |
-| `/` | 200 | Know what will break before moving to Shopify | ✓ | ✓ | 970 | 2 schemas ✓ | PASS |
+| `/` | 200 | Know what will break before moving to Shopify | ✓ | ✓ | 972 | 2 schemas ✓ | PASS |
 | `/compare/` | 200 | Compare Shopify migration tools | ✓ | ✓ | 443 | 1 schemas ✓ | PASS |
 
 ## SSR Content Verification (Key Pages)
 
 ### `/`
 - HTTP: 200
-- SSR word count: 970
+- SSR word count: 972
 - H1: "Know what will break before moving to Shopify"
 - Title: "pseoengine — Technical Shopify Migration Intelligence"
 - Description: "Technical migration guides, platform compatibility data and SEO migration planning for established e"
@@ -173,7 +173,7 @@ Local test: http://localhost:3000
 
 ### `/migrate/vtex-to-shopify/`
 - HTTP: 200
-- SSR word count: 2198
+- SSR word count: 2201
 - H1: "VTEX to Shopify Migration"
 - Title: "VTEX to Shopify Migration Guide — pseoengine"
 - Description: "Technical migration guide for moving from VTEX to Shopify. Covers what migrates, what doesn&#x27;t, "
@@ -184,7 +184,7 @@ Local test: http://localhost:3000
 
 ### `/migrate/woocommerce-to-shopify/order-history/`
 - HTTP: 200
-- SSR word count: 1506
+- SSR word count: 1494
 - H1: "WooCommerce Order History Migration to Shopify"
 - Title: "WooCommerce Order History Migration to Shopify — pseoengine"
 - Description: "How to handle order history migration when migrating from WooCommerce to Shopify. What transfers, wh"
@@ -206,7 +206,7 @@ Local test: http://localhost:3000
 
 ### `/migrate/seo/`
 - HTTP: 200
-- SSR word count: 3186
+- SSR word count: 3207
 - H1: "SEO Migration to Shopify"
 - Title: "SEO Migration to Shopify — pseoengine"
 - Description: "Managing the SEO implications of platform migration including URL structure changes, redirects, meta"
@@ -217,7 +217,7 @@ Local test: http://localhost:3000
 
 ### `/migrate/order-history/`
 - HTTP: 200
-- SSR word count: 3279
+- SSR word count: 3270
 - H1: "Order History Migration to Shopify"
 - Title: "Order History Migration to Shopify — pseoengine"
 - Description: "Migrating historical order data from the source platform to Shopify, including order status, payment"
@@ -228,7 +228,7 @@ Local test: http://localhost:3000
 
 ### `/shopify-store-migration/`
 - HTTP: 200
-- SSR word count: 607
+- SSR word count: 655
 - H1: "Shopify Store Migration App — Complete Guide"
 - Title: "Shopify Store Migration App — Complete Guide — pseoengine"
 - Description: "Everything you need to know about Shopify&#x27;s built-in Store Migration tool. Covers capabilities,"
@@ -250,7 +250,7 @@ Local test: http://localhost:3000
 
 ### `/compare/shopify-store-migration-vs-matrixify/`
 - HTTP: 200
-- SSR word count: 1135
+- SSR word count: 1127
 - H1: "Shopify Store Migration vs Matrixify"
 - Title: "Shopify Store Migration vs Matrixify — pseoengine"
 - Description: "Detailed comparison of Shopify&#x27;s built-in Store Migration app vs Matrixify (Excelify) for migra"
@@ -261,7 +261,7 @@ Local test: http://localhost:3000
 
 ### `/tools/migration-assessment/`
 - HTTP: 200
-- SSR word count: 438
+- SSR word count: 445
 - H1: "Free Shopify Migration Assessment"
 - Title: "Free Shopify Migration Assessment — pseoengine"
 - Description: "Get a free assessment of your ecommerce store&#x27;s Shopify migration readiness. We analyze your pl"

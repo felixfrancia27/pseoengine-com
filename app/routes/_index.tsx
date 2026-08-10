@@ -26,15 +26,15 @@ const FAQS = [
   },
   {
     q: "Will migrating to Shopify hurt my SEO?",
-    a: "Expect a temporary traffic dip of 10-30% in the first 1-2 months. With proper 301 redirects, preserved metadata, and Search Console notification, most stores recover within 2-4 months. We document the specific SEO migration steps for each platform.",
+    a: "A platform migration can affect organic search traffic. The impact depends on URL changes, redirect implementation, crawl frequency, and content changes. We document the specific SEO migration steps for each platform.",
   },
   {
     q: "What platforms does Shopify's Store Migration app support?",
-    a: "Shopify's built-in migration supports WooCommerce, Magento (limited), BigCommerce, PrestaShop, Shopware, Wix, Squarespace, and OpenCart. It does not support VTEX, Tiendanube, Nuvemshop, custom platforms, or Salesforce Commerce Cloud.",
+    a: "As of 2026, the Store Migration app supports importing from Square, WooCommerce, Etsy, Wix, Amazon, eBay, Clover, and Lightspeed. Other platforms require CSV import or third-party migration apps like Matrixify or Cart2Cart.",
   },
   {
     q: "How long does a Shopify migration take?",
-    a: "A basic migration (products, customers, basic config) can be done in 2-4 weeks. Complex stores with custom integrations, B2B features, subscriptions, or large order histories typically take 2-4 months for a complete, tested migration.",
+    a: "A basic data migration can be done in days to a couple of weeks. Complex stores with custom integrations, B2B features, subscriptions, or large amounts of data require more planning and testing — typically weeks to months.",
   },
 ];
 

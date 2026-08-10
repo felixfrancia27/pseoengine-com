@@ -168,7 +168,7 @@ export default function MigrateSlug() {
               <tr>
                 <td><strong>Products</strong></td>
                 <td>{platform.dataModel.productModel}</td>
-                <td>Product with up to 3 options, 100 variants, metafields</td>
+                <td>Product with up to 3 options, 2,000 variants, metafields</td>
               </tr>
               <tr>
                 <td><strong>Variants</strong></td>

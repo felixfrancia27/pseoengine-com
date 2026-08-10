@@ -442,7 +442,7 @@ export const PLATFORMS: Platform[] = [
     commonQuestions: [
       {
         q: "How do I migrate PrestaShop product combinations to Shopify?",
-        a: "PrestaShop combinations map to Shopify variants, but with limitations. Combination-specific images, per-combination prices, and quantities need special handling. The maximum 100 variants per product and 3 options per product limits in Shopify may require splitting products in PrestaShop.",
+        a: "PrestaShop combinations map to Shopify variants, but with limitations. Combination-specific images, per-combination prices, and quantities need special handling. The maximum 2,000 variants per product and 3 options per product limits in Shopify. Stores exceeding these limits may need to split products.",
       },
     ],
     techIndicators: [

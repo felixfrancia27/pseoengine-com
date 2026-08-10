@@ -58,12 +58,12 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
       "For most stores, historical orders should NOT be migrated to Shopify unless required for customer service, reordering, or loyalty programs. Use a separate reporting system for historical order data. If migration is required, use the Shopify Admin API or a third-party app like Matrixify, importing customers first, then orders.",
     complexity: 7,
     technicalNotes: [
-      "Shopify's Order API requires POST /admin/api/2024-01/orders.json with complete order structure",
+      "Shopify's Order API requires POST /admin/api/2026-07/graphql.json with complete order structure",
       "Orders must reference existing customer and product IDs in Shopify",
       "Shopify does not support importing order discount codes via API",
       "Transaction history (order payment events) should be imported separately via the Transaction API",
       "Order timeline events (fulfillment, refund) can be added via Order/fulfillment endpoints",
-      "Maximum 250 orders per API call, rate limited to 40 requests per minute (Standard) or 80 (Plus)",
+      "Shopify uses GraphQL cost-based rate limiting. Check current limits at shopify.dev/docs/api/usage/rate-limits",
       "Matrixify (Excelify) is the most commonly used app for bulk order import",
       "Consider archiving instead of importing: export orders to a database/reporting tool",
     ],
@@ -83,7 +83,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     sources: [
       {
         title: "Shopify Order API Reference",
-        url: "https://shopify.dev/docs/api/admin-rest/2024-01/resources/order",
+        url: "https://shopify.dev/docs/api/admin-graphql/2026-07/mutations/orderCreate",
         publisher: "Shopify",
       },
       {
@@ -126,7 +126,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
       "Google Search Console history",
     ],
     risks: [
-      "Traffic drop of 10-30% is typical in first 1-2 months post-migration",
+      "Organic search performance can be affected by any platform migration. Impact varies with redirect quality, URL changes, and crawl frequency",
       "Missing 301 redirects cause 404 errors and lost backlink equity",
       "Duplicate content if old and new sites coexist",
       "Canonical tags referencing old URLs",
@@ -203,7 +203,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
       "Export all URLs from the source platform (products, categories, CMS pages, blog posts). Map each URL to its Shopify equivalent. Create a URL redirect CSV and import via Shopify admin or API. Prioritize high-traffic URLs first. Test a random sample before bulk import.",
     complexity: 6,
     technicalNotes: [
-      "Shopify URL Redirects: POST /admin/api/2024-01/redirects.json",
+      "Shopify URL Redirects: POST /admin/api/2026-07/graphql.json",
       "Format: { redirect: { path: '/old-url', target: '/new-url' } }",
       "Path must start with / and be relative",
       "Target can be relative (/products/new-slug) or absolute (https://)",
@@ -219,7 +219,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     sources: [
       {
         title: "Shopify URL Redirects",
-        url: "https://shopify.dev/docs/api/admin-rest/2024-01/resources/redirect",
+        url: "https://shopify.dev/docs/api/admin-graphql/2026-07",
         publisher: "Shopify",
       },
     ],
@@ -270,7 +270,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
       "Magento 2 uses SHA-256 with a 32-character salt",
       "Shopify uses BCrypt for password storage",
       "Cannot migrate password hashes directly; algorithms are incompatible",
-      "Shopify's Customer API: POST /admin/api/2024-01/customers.json",
+      "Shopify's Customer API: POST /admin/api/2026-07/graphql.json",
       "Customers must accept account invite via email after import",
       "Shopify Plus Multipass allows external authentication",
       "Consider SSO/OAuth bridge for enterprise migrations",
@@ -285,7 +285,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     sources: [
       {
         title: "Shopify Customer API",
-        url: "https://shopify.dev/docs/api/admin-rest/2024-01/resources/customer",
+        url: "https://shopify.dev/docs/api/admin-graphql/2026-07/queries/customer",
         publisher: "Shopify",
       },
       {
@@ -385,7 +385,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
       "Duplicate reviews if migrating to a new review app",
     ],
     recommendedApproach:
-      "Choose a Shopify review app (Shopify Product Reviews, Judge.me, Yotpo, Loox, Stamped). Export reviews from the source platform as CSV. Map fields to the review app's import format. Import reviews, ensuring product references are correct. If using WooCommerce Product Reviews Pro or similar, check if the Shopify review app offers a direct migration path.",
+      "Choose a Shopify review app (Judge.me, Yotpo, Stamped, Loox). Export reviews from the source platform as CSV. Map fields to the review app's import format. Import reviews, ensuring product references are correct. If using WooCommerce Product Reviews Pro or similar, check if the Shopify review app offers a direct migration path.",
     complexity: 4,
     technicalNotes: [
       "WooCommerce reviews are WordPress comments with comment_type='review'",
@@ -584,7 +584,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     whatMigrates: [
       "Simple product-to-variant mapping",
       "Up to 3 options per product",
-      "Up to 100 variants per product",
+      "Up to 2,000 variants per product",
       "Per-variant pricing, SKU, and inventory",
     ],
     whatDoesNotMigrate: [
@@ -607,7 +607,7 @@ export const MIGRATION_ISSUES: MigrationIssue[] = [
     complexity: 8,
     technicalNotes: [
       "Shopify: maximum 3 options (option1, option2, option3) per product",
-      "Shopify: maximum 100 variants per product",
+      "Shopify: maximum 2,000 variants per product",
       "Magento EAV: attributes in eav_attribute, values in catalog_product_entity_* tables",
       "Magento configurable: super_attribute links configurable to simple products",
       "PrestaShop: combinations in ps_product_attribute + ps_product_attribute_combination",

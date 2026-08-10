@@ -38,55 +38,54 @@ export default function StoreMigrationIndex() {
         <div className="wrap narrow prose">
           <h2>What is Shopify's Store Migration app?</h2>
           <p>
-            Shopify provides a built-in Store Migration tool accessible from your Shopify admin under{" "}
-            <strong>Settings → Import data</strong>. It supports migrating products, customers, and
-            order history from several major ecommerce platforms via CSV import with platform-specific
-            column mappings.
+            The Store Migration app is Shopify's free, first-party app for importing product and customer
+            data from other platforms. It supports CSV upload and direct account connections for select
+            source platforms. It does <strong>not</strong> import orders, reviews, blog posts, or gift cards.
           </p>
 
-          <h2>Supported platforms</h2>
+          <h2>Supported source platforms</h2>
+          <p>As verified against the Shopify App Store listing (August 2026):</p>
           <div className="migration-status">
             <div className="migration-status__item">
               <b>WooCommerce</b>
-              <span className="is-partial">Partial</span>
-            </div>
-            <div className="migration-status__item">
-              <b>Magento</b>
-              <span className="is-partial">Partial</span>
-            </div>
-            <div className="migration-status__item">
-              <b>BigCommerce</b>
-              <span className="is-yes">Full</span>
-            </div>
-            <div className="migration-status__item">
-              <b>PrestaShop</b>
-              <span className="is-partial">Partial</span>
-            </div>
-            <div className="migration-status__item">
-              <b>Shopware</b>
-              <span className="is-partial">Partial</span>
+              <span className="is-yes">Supported</span>
             </div>
             <div className="migration-status__item">
               <b>Wix</b>
-              <span className="is-partial">Partial</span>
+              <span className="is-yes">Supported</span>
             </div>
             <div className="migration-status__item">
-              <b>Squarespace</b>
-              <span className="is-partial">Partial</span>
+              <b>Etsy</b>
+              <span className="is-yes">Supported</span>
             </div>
             <div className="migration-status__item">
-              <b>OpenCart</b>
-              <span className="is-partial">Partial</span>
+              <b>Amazon</b>
+              <span className="is-yes">Supported</span>
             </div>
             <div className="migration-status__item">
-              <b>VTEX</b>
-              <span className="is-no">Not supported</span>
+              <b>eBay</b>
+              <span className="is-yes">Supported</span>
             </div>
             <div className="migration-status__item">
-              <b>Tiendanube</b>
-              <span className="is-no">Not supported</span>
+              <b>Square</b>
+              <span className="is-yes">Supported</span>
+            </div>
+            <div className="migration-status__item">
+              <b>Clover</b>
+              <span className="is-yes">Supported</span>
+            </div>
+            <div className="migration-status__item">
+              <b>Lightspeed</b>
+              <span className="is-yes">Supported</span>
             </div>
           </div>
+
+          <p style={{ fontSize: 14, color: "var(--ink-3)", marginTop: 12 }}>
+            Platforms not listed — including Magento, BigCommerce, PrestaShop, Shopware, VTEX, 
+            Tiendanube, Nuvemshop, Squarespace, and OpenCart — are not supported by the Store 
+            Migration app. Use third-party apps like Matrixify or Cart2Cart, or the Shopify 
+            GraphQL Admin API for custom migrations.
+          </p>
 
           <h2>Guide pages</h2>
           <div className="grid grid--2" style={{ marginTop: 20 }}>

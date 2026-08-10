@@ -79,15 +79,13 @@ const COMPARISONS: Record<string, { title: string; description: string; subjects
 
 | Scenario | Best tool |
 |---|---|
-| Basic WooCommerce migration (< 500 products) | Store Migration |
-| Migrating order history | Matrixify |
+| Basic WooCommerce migration | Store Migration |
+| Historical orders | Matrixify |
 | Large Magento catalog | Matrixify |
 | Custom fields to preserve | Matrixify |
-| Simple Wix/Squarespace store | Store Migration |
-| VTEX/Tiendanube migration | Matrixify or Cart2Cart |
-| Need scheduled imports ongoing | Matrixify |
-
-## Sources`,
+| Simple Wix store | Store Migration |
+| VTEX/Tiendanube | Matrixify or Cart2Cart |
+| Scheduled ongoing imports | Matrixify |`,
   },
   "shopify-store-migration-vs-cart2cart": {
     title: "Shopify Store Migration vs Cart2Cart",
@@ -158,9 +156,7 @@ Cart2Cart is the only automated option. Shopify has no native migration for thes
 Cart2Cart can migrate product reviews. Shopify's native tool cannot. Matrixify is another option for reviews via CSV.
 
 ### Large catalog with complex data
-Cart2Cart with delta migration: migrate the bulk of data, then run a delta to capture changes made during the migration setup period. This minimizes downtime.
-
-## Sources`,
+Cart2Cart with delta migration: migrate the bulk of data, then run a delta to capture changes made during the migration setup period. This minimizes downtime.`,
   },
 };
 

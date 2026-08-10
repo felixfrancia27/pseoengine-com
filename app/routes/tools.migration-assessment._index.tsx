@@ -156,47 +156,54 @@ export default function MigrationAssessment() {
         {!result ? (
           <Form method="post" className="assessment-form">
             <label htmlFor="storeUrl">Store URL</label>
-            <input id="storeUrl" name="storeUrl" type="url" placeholder="https://yourstore.com" />
+            <input id="storeUrl" name="storeUrl" type="url" placeholder="https://yourstore.com" autoComplete="url" />
 
-            <label htmlFor="platform">Current platform</label>
-            <select id="platform" name="platform">
-              <option value="">Auto-detect from URL</option>
-              {PLATFORMS.map((p) => (
-                <option key={p.slug} value={p.slug}>{p.name}</option>
-              ))}
-            </select>
-
-            <label htmlFor="revenue">Approximate annual revenue</label>
-            <select id="revenue" name="revenue">
-              <option value="">Prefer not to say</option>
-              <option value="under-100k">Under $100K</option>
-              <option value="100k-1m">$100K – $1M</option>
-              <option value="1m-10m">$1M – $10M</option>
-              <option value="over-10m">Over $10M</option>
-            </select>
-
-            <label htmlFor="productCount">Number of products</label>
-            <input id="productCount" name="productCount" type="number" placeholder="e.g. 500" />
-
-            <label htmlFor="monthlyOrders">Monthly orders</label>
-            <input id="monthlyOrders" name="monthlyOrders" type="number" placeholder="e.g. 200" />
-
-            <div className="checkbox-row">
-              <input type="checkbox" id="b2b" name="b2b" />
-              <label htmlFor="b2b">B2B / wholesale operations</label>
-            </div>
-
-            <div className="checkbox-row">
-              <input type="checkbox" id="physicalRetail" name="physicalRetail" />
-              <label htmlFor="physicalRetail">Physical retail / POS</label>
-            </div>
-
-            <label htmlFor="email">Email (optional — for follow-up)</label>
-            <input id="email" name="email" type="email" placeholder="you@example.com" />
-
-            <button type="submit" className="btn btn--primary btn--lg" disabled={isSubmitting} style={{ width: "100%" }}>
+            <button type="submit" className="btn btn--primary btn--lg" disabled={isSubmitting} style={{ width: "100%", marginBottom: 28 }}>
               {isSubmitting ? "Analyzing..." : "Analyze my store"}
             </button>
+
+            <details style={{ border: "1px solid var(--line)", borderRadius: 10, padding: "0 18px" }}>
+              <summary style={{ padding: "14px 0", cursor: "pointer", fontWeight: 600, fontSize: 15 }}>
+                Optional: tell us more for a detailed assessment
+              </summary>
+              <div style={{ paddingBottom: 14 }}>
+                <label htmlFor="platform">Current platform</label>
+                <select id="platform" name="platform">
+                  <option value="">Auto-detect from URL</option>
+                  {PLATFORMS.map((p) => (
+                    <option key={p.slug} value={p.slug}>{p.name}</option>
+                  ))}
+                </select>
+
+                <label htmlFor="revenue">Approximate annual revenue</label>
+                <select id="revenue" name="revenue">
+                  <option value="">Prefer not to say</option>
+                  <option value="under-100k">Under $100K</option>
+                  <option value="100k-1m">$100K – $1M</option>
+                  <option value="1m-10m">$1M – $10M</option>
+                  <option value="over-10m">Over $10M</option>
+                </select>
+
+                <label htmlFor="productCount">Number of products</label>
+                <input id="productCount" name="productCount" type="number" placeholder="e.g. 500" />
+
+                <label htmlFor="monthlyOrders">Monthly orders (approx.)</label>
+                <input id="monthlyOrders" name="monthlyOrders" type="number" placeholder="e.g. 200" />
+
+                <div className="checkbox-row">
+                  <input type="checkbox" id="b2b" name="b2b" />
+                  <label htmlFor="b2b">B2B / wholesale operations</label>
+                </div>
+
+                <div className="checkbox-row">
+                  <input type="checkbox" id="physicalRetail" name="physicalRetail" />
+                  <label htmlFor="physicalRetail">Physical retail / POS</label>
+                </div>
+
+                <label htmlFor="email">Email (for follow-up)</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" autoComplete="email" />
+              </div>
+            </details>
           </Form>
         ) : (
           <div>
